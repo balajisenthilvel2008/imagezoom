@@ -6,7 +6,7 @@ To design a web application for an inteactive image gallery with minimum five im
 
 ## DESIGN STEPS
 
-###Step 1:
+### Step 1:
 Clone the github repository and create Django admin interface.
 
 ### Step 2:
@@ -41,6 +41,7 @@ gallery.html
     <img src="im-2.jpg" id="image2" alt="lion">
     <img src="im-3.jpg" id="image3" alt="kingfisher">
     <img src="im-4.jpg" id="image4" alt="toucan">
+    <img src="im-5.jpg" id="image4" alt="toucan">
   </div>
 
   <footer>
