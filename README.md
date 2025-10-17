@@ -118,7 +118,7 @@ h2 {
 ```
 ## OUTPUT
 
-![alt text](image-1.png)
+![alt text](<Screenshot 2025-10-17 160504.png>)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
