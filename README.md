@@ -25,8 +25,9 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-gallery.html
 ```
+gallery.html
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -36,29 +37,28 @@ gallery.html
 </head>
 <body>
   <div class="gallery">
-    <img src="a2.jpg" id="image1" alt="Person 2">
-    <img src="a3.jpg" id="image2" alt="Person 3">
-    <img src="a4.jpg" id="image3" alt="Person 4">
-    <img src="a5.jpg" id="image4" alt="Person 5">
+    <img src="im-1.jpg" id="image1" alt="leopard">
+    <img src="im-2.jpg" id="image2" alt="lion">
+    <img src="im-3.jpg" id="image3" alt="kingfisher">
+    <img src="im-4.jpg" id="image4" alt="toucan">
   </div>
 
   <footer>
-    <h1>&copy; DESIGNED BY:</h1>
-    <h2> NKK</h2>
+    <h1 >Created by</h1>
+    <h2 >&copy;Balaji S</h2>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-```
+
 script.js
-```
 const images = document.querySelectorAll('.gallery img');
 
 images.forEach(image => {
   image.addEventListener('mouseover', () => {
-    image.style.transform = 'scale(1.2) rotate(2deg)';
-    image.style.boxShadow = '0 20px 40px rgba(0,0,0,0.6)';
+    image.style.transform = 'scale(2) rotate(5deg)';
+    image.style.boxShadow = '0 20px 40px rgba(0,255,255,1)';
   });
 
   image.addEventListener('mouseout', () => {
@@ -66,9 +66,8 @@ images.forEach(image => {
     image.style.boxShadow = '';
   });
 });
-```
+
 style.css
-```
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +75,7 @@ style.css
 }
 
 body {
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.6), #8e906f, #384043, #50565f);
+  background: linear-gradient(180deg, blueviolet, #8e906f, #384043, #50565f);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   text-align: center;
@@ -94,9 +93,9 @@ body {
 .gallery img {
   width: 200px;
   height: 250px;
-  border: 8px solid rgb(255, 0, 0);
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 8px solid aqua;
+  border-radius: 15px;
+  transition: transform 1s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
@@ -105,22 +104,21 @@ footer {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 35px;
+  font-family:Lucida Calligraphy;
+  color:yellow;
 }
 
 h2 {
-  font-size: 22px;
-  color: #fff;
+  font-size:25px;
+  font-family:Lucida Calligraphy;
+  color:pink;
 }
+
 ```
 ## OUTPUT
-<img width="1920" height="1080" alt="Screenshot 2025-10-10 165658" src="https://github.com/user-attachments/assets/67442ec7-02bd-4cfa-8278-21886e9ba5cf" />
 
-
-
-
-
-
+![alt text](image-1.png)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.

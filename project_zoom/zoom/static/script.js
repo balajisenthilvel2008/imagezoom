@@ -2,8 +2,8 @@ const images = document.querySelectorAll('.gallery img');
 
 images.forEach(image => {
   image.addEventListener('mouseover', () => {
-    image.style.transform = 'scale(1.2) rotate(2deg)';
-    image.style.boxShadow = '0 20px 40px rgba(0,0,0,0.6)';
+    image.style.transform = 'scale(2) rotate(5deg)';
+    image.style.boxShadow = '0 20px 40px rgba(0,255,255,1)';
   });
 
   image.addEventListener('mouseout', () => {
